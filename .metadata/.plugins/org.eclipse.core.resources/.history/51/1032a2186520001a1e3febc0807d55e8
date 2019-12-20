@@ -1,0 +1,17 @@
+/*
+ * msp.c
+ *
+ *  Created on: Dec 16, 2019
+ *      Author: gvnwa
+ */
+
+
+void HAL_MspInit(void)
+{
+	//Here we will do low level processor specific inits
+	//1. set up the priority grouping of the arm cortex mx processor
+
+	//2. enable the required system exceptions of the arm cortex mx processor
+
+	//3. configure the priority for the system exceptions
+}
