@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;timer_OC_PWM1/Src/msp.h&apos; to &apos;msp.c&apos;" description="Rename resource &apos;msp.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Src/msp.h" name="msp.c" stamp="1577225192370" updateReferences="true"/>
+</session>

@@ -1,0 +1,7 @@
+18:31:03 **** Clean-only build of configuration Debug for project TEMPLATE2 ****
+make clean 
+rm -rf *
+ 
+
+18:31:04 Build Finished (took 566ms)
+

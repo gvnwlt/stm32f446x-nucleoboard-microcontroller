@@ -1,137 +1,42 @@
-17:28:27 **** Build of configuration Debug for project TEST1 ****
-make all 
-Building file: ../startup/startup_stm32f446xx.s
-Invoking: MCU GCC Assembler
-C:\Users\gvnwa\GitHub\stm32f446x-nucleoboard-microcontroller\TEST1\Debug
-arm-none-eabi-as -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -g -o "startup/startup_stm32f446xx.o" "../startup/startup_stm32f446xx.s"
-Finished building: ../startup/startup_stm32f446xx.s
- 
-Building file: ../Src/main.c
-Invoking: MCU GCC Compiler
-C:\Users\gvnwa\GitHub\stm32f446x-nucleoboard-microcontroller\TEST1\Debug
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F446xx -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
-Finished building: ../Src/main.c
- 
-Building file: ../Src/stm32f4xx_hal_msp.c
-Invoking: MCU GCC Compiler
-C:\Users\gvnwa\GitHub\stm32f446x-nucleoboard-microcontroller\TEST1\Debug
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F446xx -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f4xx_hal_msp.d" -MT"Src/stm32f4xx_hal_msp.o" -o "Src/stm32f4xx_hal_msp.o" "../Src/stm32f4xx_hal_msp.c"
-Finished building: ../Src/stm32f4xx_hal_msp.c
- 
-Building file: ../Src/stm32f4xx_it.c
-Invoking: MCU GCC Compiler
-C:\Users\gvnwa\GitHub\stm32f446x-nucleoboard-microcontroller\TEST1\Debug
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F446xx -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f4xx_it.d" -MT"Src/stm32f4xx_it.o" -o "Src/stm32f4xx_it.o" "../Src/stm32f4xx_it.c"
-Finished building: ../Src/stm32f4xx_it.c
- 
-Building file: ../Src/system_stm32f4xx.c
-Invoking: MCU GCC Compiler
-C:\Users\gvnwa\GitHub\stm32f446x-nucleoboard-microcontroller\TEST1\Debug
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F446xx -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/system_stm32f4xx.d" -MT"Src/system_stm32f4xx.o" -o "Src/system_stm32f4xx.o" "../Src/system_stm32f4xx.c"
-Finished building: ../Src/system_stm32f4xx.c
- 
-Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
-Invoking: MCU GCC Compiler
-C:\Users\gvnwa\GitHub\stm32f446x-nucleoboard-microcontroller\TEST1\Debug
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F446xx -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c"
-Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
- 
-Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
-Invoking: MCU GCC Compiler
-C:\Users\gvnwa\GitHub\stm32f446x-nucleoboard-microcontroller\TEST1\Debug
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F446xx -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c"
-Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
- 
-Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
-Invoking: MCU GCC Compiler
-C:\Users\gvnwa\GitHub\stm32f446x-nucleoboard-microcontroller\TEST1\Debug
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F446xx -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c"
-Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
- 
-Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
-Invoking: MCU GCC Compiler
-C:\Users\gvnwa\GitHub\stm32f446x-nucleoboard-microcontroller\TEST1\Debug
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F446xx -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c"
-Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
- 
-Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
-Invoking: MCU GCC Compiler
-C:\Users\gvnwa\GitHub\stm32f446x-nucleoboard-microcontroller\TEST1\Debug
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F446xx -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c"
-Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
- 
-Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
-Invoking: MCU GCC Compiler
-C:\Users\gvnwa\GitHub\stm32f446x-nucleoboard-microcontroller\TEST1\Debug
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F446xx -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c"
-Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
- 
-Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
-Invoking: MCU GCC Compiler
-C:\Users\gvnwa\GitHub\stm32f446x-nucleoboard-microcontroller\TEST1\Debug
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F446xx -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c"
-Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
- 
-Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
-Invoking: MCU GCC Compiler
-C:\Users\gvnwa\GitHub\stm32f446x-nucleoboard-microcontroller\TEST1\Debug
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F446xx -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c"
-Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
- 
-Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
-Invoking: MCU GCC Compiler
-C:\Users\gvnwa\GitHub\stm32f446x-nucleoboard-microcontroller\TEST1\Debug
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F446xx -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c"
-Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
- 
-Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
-Invoking: MCU GCC Compiler
-C:\Users\gvnwa\GitHub\stm32f446x-nucleoboard-microcontroller\TEST1\Debug
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F446xx -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c"
-Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
- 
-Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
-Invoking: MCU GCC Compiler
-C:\Users\gvnwa\GitHub\stm32f446x-nucleoboard-microcontroller\TEST1\Debug
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F446xx -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c"
-Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
- 
-Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
-Invoking: MCU GCC Compiler
-C:\Users\gvnwa\GitHub\stm32f446x-nucleoboard-microcontroller\TEST1\Debug
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F446xx -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c"
-Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
- 
-Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
-Invoking: MCU GCC Compiler
-C:\Users\gvnwa\GitHub\stm32f446x-nucleoboard-microcontroller\TEST1\Debug
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F446xx -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c"
-Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
- 
-Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
-Invoking: MCU GCC Compiler
-C:\Users\gvnwa\GitHub\stm32f446x-nucleoboard-microcontroller\TEST1\Debug
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F446xx -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c"
-Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
- 
-Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
-Invoking: MCU GCC Compiler
-C:\Users\gvnwa\GitHub\stm32f446x-nucleoboard-microcontroller\TEST1\Debug
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F446xx -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/TEST1/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c"
-Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
- 
-Building target: TEST1.elf
-Invoking: MCU GCC Linker
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F446RETx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "TEST1.elf" @"objects.list"   -lm
-Finished building target: TEST1.elf
- 
-make --no-print-directory post-build
-Generating binary and Printing size information:
-arm-none-eabi-objcopy -O binary "TEST1.elf" "TEST1.bin"
-arm-none-eabi-size "TEST1.elf"
-   text	   data	    bss	    dec	    hex	filename
-   5752	     20	   1636	   7408	   1cf0	TEST1.elf
- 
+17:15:44 **** Programming project TEST1 on chip ****
+"C:\\Ac6\\SystemWorkbench\\plugins\\fr.ac6.mcu.externaltools.openocd.win32_1.23.0.201904120827\\tools\\openocd\\bin\\openocd.exe" -f stm32.flash.7452307245852661573.cfg -s "C:\\Users\\gvnwa\\GitHub\\stm32f446x-nucleoboard-microcontroller\\TEST1" -s "C:\\Ac6\\SystemWorkbench\\plugins\\fr.ac6.mcu.debug_2.5.0.201904120827\\resources\\openocd\\st_scripts" -c "program Debug/TEST1.elf verify " -c shutdown 
+Open On-Chip Debugger 0.10.0+dev-00021-g524e8c8 (2019-04-12-08:48)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+srst_only separate srst_nogate srst_open_drain connect_assert_srst
+Info : The selected transport took over low-level target control. The results might differ compared to plain JTAG/SWD
+adapter speed: 8000 kHz
+adapter_nsrst_delay: 100
+Info : clock speed 8000 kHz
+Info : STLINK v2.1 JTAG v35 API v2 M26 VID 0x0483 PID 0x374B
+Info : using stlink api v2
+Info : Target voltage: 3.259396
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+Info : Stlink adapter speed set to 4000 kHz
+Info : STM32F446RETx.cpu: hardware has 6 breakpoints, 4 watchpoints
+Info : Listening on port 3333 for gdb connections
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x08001594 msp: 0x20020000
+configuring PLL
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+Info : Stlink adapter speed set to 4000 kHz
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+adapter speed: 4000 kHz
+** Programming Started **
+auto erase enabled
+Info : device id = 0x10006421
+Info : flash size = 512kbytes
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x20000046 msp: 0x20020000
+wrote 16384 bytes from file Debug/TEST1.elf in 0.564770s (28.330 KiB/s)
+** Programming Finished **
+** Verify Started **
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x2000002e msp: 0x20020000
+verified 5772 bytes in 0.140638s (40.080 KiB/s)
+** Verified OK **
+shutdown command invoked
 
-17:28:37 Build Finished (took 9s.718ms)
+17:15:44 Build Finished (took 926ms)
 

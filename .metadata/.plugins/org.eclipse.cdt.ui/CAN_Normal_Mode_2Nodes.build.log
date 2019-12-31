@@ -1,0 +1,22 @@
+13:10:01 **** Incremental Build of configuration Debug for project CAN_Normal_Mode_2Nodes ****
+make all 
+Building file: ../Src/it.c
+Invoking: MCU GCC Compiler
+C:\Users\gvnwa\GitHub\stm32f446x-nucleoboard-microcontroller\CAN_Normal_Mode_2Nodes\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F446xx -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/CAN_Normal_Mode_2Nodes/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/CAN_Normal_Mode_2Nodes/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/CAN_Normal_Mode_2Nodes/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/CAN_Normal_Mode_2Nodes/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/gvnwa/GitHub/stm32f446x-nucleoboard-microcontroller/CAN_Normal_Mode_2Nodes/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/it.d" -MT"Src/it.o" -o "Src/it.o" "../Src/it.c"
+../Src/it.c: In function 'TIM6_DAC_IRQHandler':
+../Src/it.c:45:22: error: 'htimer6' undeclared (first use in this function); did you mean 'timer_t'?
+  HAL_TIM_IRQHandler(&htimer6);
+                      ^~~~~~~
+                      timer_t
+../Src/it.c:45:22: note: each undeclared identifier is reported only once for each function it appears in
+../Src/it.c: In function 'EXTI15_10_IRQHandler':
+../Src/it.c:51:25: error: 'htimer6' undeclared (first use in this function); did you mean 'timer_t'?
+  HAL_TIM_Base_Start_IT(&htimer6);
+                         ^~~~~~~
+                         timer_t
+Src/subdir.mk:27: recipe for target 'Src/it.o' failed
+make: *** [Src/it.o] Error 1
+
+13:10:02 Build Finished (took 450ms)
+
